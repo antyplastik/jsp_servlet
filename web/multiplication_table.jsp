@@ -15,19 +15,18 @@
 <% int n = 10; %>
 
 <table>
+
+    <%
+        for (int i = 1; i <= n; i++) {
+    %>
     <tr>
-        <td>
-            <%
-                for (int i = 1; i <= n; i++) {
-            %>
-            <h1>test<h1>;
-                    <%
-                }
-            %>
-
-
-        </td>
+        <td>kol 1</td>
+        <td>kol 2</td>
     </tr>
+    <%
+        }
+    %>
+
 </table>
 
 </body>
