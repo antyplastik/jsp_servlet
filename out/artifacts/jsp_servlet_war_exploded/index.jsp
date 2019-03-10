@@ -59,8 +59,23 @@ Wartość funkcji fla argumentu x = 3 wynosi <%=test(3)%>
 </div>
 
 <c:set var="var_scope_page" scope="page" value="Nasza wartość page"/>
+<c:set var="var_scope_session" scope="session" value="Nasza wartość session"/>
+<c:set var="var_scope_request" scope="request" value="Nasza wartość request"/>
+<c:set var="var_scope_application" scope="application" value="Nasza wartość application"/>
 
+
+<h1>Wartość scope page:</h1>
 <h1>${var_scope_page}</h1> <!-- wartosc z $ jest wczytywana tylko raz -->
 
+<h1>Wartość scope session:</h1>
+<h1>${var_scope_session}</h1>
+
+<h1>Wartość scope request:</h1>
+<h1>${var_scope_request}</h1>
+
+<h1>Wartość scope application:</h1>
+<h1>${var_scope_application}</h1>
+
+<jsp:include page="scope_test.jsp"/>
 </body>
 </html>
