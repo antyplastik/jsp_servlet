@@ -13,5 +13,8 @@
 </head>
 <body>
 <strong>We are on page2</strong>
+
+<br><%= request.getParameter("parametr_xyz") %>
+
 </body>
 </html>

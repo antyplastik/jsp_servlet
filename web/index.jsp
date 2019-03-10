@@ -35,12 +35,12 @@ Today is: <%LocalDate.now();%>><br> <!--skryplet-->
 Tekst tekst tekst tekst <br>
 Wartość i wynosi <%=i%> <br>
 Wartość i po operacji i++ wynosi <% out.print(i++);%><br>
-<jsp:forward page="page2.jsp"/> <%-- action server side redirect --%>
+<%--<jsp:forward page="page2.jsp"/> &lt;%&ndash; action server side redirect &ndash;%&gt;--%>
 Wartość i po operacji ++i wynosi <% out.print(++i);%><br>
 
 <%!
-    public int test (int x){
-        return 2*x;
+    public int test(int x) {
+        return 2 * x;
     }
 %>
 
@@ -48,6 +48,12 @@ Wartość funkcji fla argumentu x = 3 wynosi <%=test(3)%>
 
 <!-- Komentarz HTML -->
 <%-- Komentarz JSP nie jest widoczny na stronie --%>
+
+<div>
+    <jsp:include page="page2.jsp">
+        <jsp:param name="parametr_xyz" value="987"/>
+    </jsp:include>
+</div>
 
 
 </body>
