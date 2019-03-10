@@ -12,7 +12,8 @@
 </head>
 <body>
 
-<% int n = 10; %>
+<%--<% int n = 10; %>--%>
+<% int n = Integer.parseInt(request.getParameter("n"));%>
 
 <table>
 
