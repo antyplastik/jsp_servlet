@@ -14,7 +14,7 @@
 <body>
 <h1>First JSP project</h1>
 <h2><%="123"%></h2>
-<%=LocalDate.now()%><br>
+Today is: <%LocalDate.now();%>><br>
 <%=LocalTime.now()%><br>
 
 <%=request.getRequestURI()%><br>
