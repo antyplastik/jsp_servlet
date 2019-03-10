@@ -7,7 +7,8 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page pageEncoding="us-ascii" %>
+<%--<%@ page pageEncoding="us-ascii" %>--%>
+<%@ page errorPage="upsik.jsp" %>
 <html>
 <head>
     <title>$Title$</title>
@@ -25,7 +26,8 @@ Today is: <%LocalDate.now();%>><br>
 <h1>Żółć</h1>
 
 <%= 3/5 %>
-<%= 3/0 %>
+
+<%@include file="fragment.jspf"%>
 
 </body>
 </html>
