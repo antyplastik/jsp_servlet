@@ -45,5 +45,8 @@ Wartość i po operacji ++i wynosi <% out.print(++i);%><br>
 
 Wartość funkcji fla argumentu x = 3 wynosi <%=test(3)%>
 
+<!-- Komentarz HTML -->
+<%-- Komentarz JSP nie jest widoczny na stronie --%>
+
 </body>
 </html>
