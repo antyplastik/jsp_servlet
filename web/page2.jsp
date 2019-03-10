@@ -13,6 +13,5 @@
 </head>
 <body>
 <strong>We are on page2</strong>
-<%= 3/0 %>
 </body>
 </html>
