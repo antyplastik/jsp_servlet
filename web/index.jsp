@@ -58,6 +58,9 @@ Wartość funkcji fla argumentu x = 3 wynosi <%=test(3)%>
     </jsp:include>
 </div>
 
+<c:set var="var_scope_page" scope="page" value="Nasza wartość page"/>
+
+<h1>${var_scope_page}</h1> <!-- wartosc z $ jest wczytywana tylko raz -->
 
 </body>
 </html>
