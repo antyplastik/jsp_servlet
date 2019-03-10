@@ -14,6 +14,7 @@
 
 <%--<% int n = 10; %>--%>
 <% int n = Integer.parseInt(request.getParameter("n"));%>
+<% int m = Integer.parseInt(request.getParameter("m"));%>
 
 <table>
 
@@ -22,7 +23,7 @@
     %>
     <tr>
         <%
-            for (int j = 1; j <= n; j++) {
+            for (int j = 1; j <= m; j++) {
         %>
         <td>
             <%= i * j %>
