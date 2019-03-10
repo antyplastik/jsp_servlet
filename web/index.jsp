@@ -10,6 +10,9 @@
 <!--directive-->
 <%--<%@ page pageEncoding="us-ascii" %>--%>
 <%@ page errorPage="upsik.jsp" %>
+
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
 <html>
 <head>
     <title>$Title$</title>
