@@ -21,12 +21,15 @@
     <%
         for (int i = 1; i <= n; i++) {
     %>
-    <tr>
+    <tr style="height: 10px">
         <%
             for (int j = 1; j <= m; j++) {
         %>
-        <td>
-            <%= i * j %>
+        <td style="width: 20px">
+            <%
+
+                out.print(i * j);
+            %>
         </td>
         <%
             }
