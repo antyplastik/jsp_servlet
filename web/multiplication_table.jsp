@@ -20,8 +20,15 @@
         for (int i = 1; i <= n; i++) {
     %>
     <tr>
-        <td>kol 1</td>
-        <td>kol 2</td>
+        <%
+            for (int j = 1; j <= n; j++) {
+        %>
+        <td>
+            <%= i * j %>
+        </td>
+        <%
+            }
+        %>
     </tr>
     <%
         }

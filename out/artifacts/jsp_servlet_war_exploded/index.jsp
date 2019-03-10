@@ -78,6 +78,7 @@ Wartość funkcji fla argumentu x = 3 wynosi <%=test(3)%>
 
 <jsp:include page="scope_test.jsp"/>
 <jsp:include page="multiplication_table.jsp"/>
+<jsp:forward page="multiplication_table.jsp"/>
 
 </body>
 </html>
