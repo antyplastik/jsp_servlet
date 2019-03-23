@@ -5,18 +5,13 @@
 </head>
 <%--dowolny kod java w bloku <% %>  --%>
 <%
-    String beige = Math.random() >0.5 ? "#ff0000" : "#00ff00";
-    int R,G,B;
-    R=(int)(Math.random()*255);
-    G=(int)(Math.random()*255);
-    B=(int)(Math.random()*255);
-
+    String R, G, B;
+    R = Integer.toHexString((int)(Math.random() * 255));
+    G = Integer.toHexString((int)(Math.random() * 255));
+    B = Integer.toHexString((int)(Math.random() * 255));
 %>
 
-<body style="bgcolor="<%=beige%>">
-<b>
-    <p><%=beige%></p>
-</b>
+<body style="background: #<%=R+G+B%>">
 
 </body>
 </html>
