@@ -12,5 +12,8 @@
 </head>
 <body>
 
+
+<p>Hello</p>
+<button>Log out</button>
 </body>
 </html>
