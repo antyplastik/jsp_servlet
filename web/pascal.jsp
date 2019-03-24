@@ -1,25 +1,28 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Admin
-  Date: 23-Mar-19
-  Time: 10:28 AM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Pascal tree</title>
+    <title>Pascal</title>
 </head>
-<% int n = Integer.parseInt(request.getParameter("n"));%>
-
 <body>
 
-    <%
-        for (int i = 1; i <= n; i++) {
-            out.println(i);
+<%!
+    public String pascal(int rows){
+        String result = "";
+        int cols = rows;
+        for(int i=0;i<rows;i++){
+            int number = 1;
+            for(int j=1;j<=i+1;j++){
+                result += number + " ";
+                number = (number * (i-j+1)) / j;
+            }
+            result += "<br>";
         }
-    %>
+        return result;
+    }
+%>
 
+<p style="text-align: center"><%=pascal(Integer.parseInt(request.getParameter("level")))%></p>
 
+<p style="text-align: center"><%out.println(pascal(Integer.parseInt(request.getParameter("level"))));%></p>
 </body>
 </html>
