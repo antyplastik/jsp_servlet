@@ -7,26 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3127725-6e8e-459d-81b2-f00c5a107893" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/jsp_servlet_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/HelloWorld.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/background-from-cookie.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/background2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/login-page/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/login-page/logout.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/login-page/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/login-page/testusers.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/login-page/verify.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp_servlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jsp_servlet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp_servlet_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp_servlet_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jstl.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jstl.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pascal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/pascal.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -236,7 +217,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553427350471" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553428131239" />
     <property name="last_opened_file_path" value="C:/tomcat/apache-tomcat-9.0.17" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -355,7 +336,7 @@
       <workItem from="1552339573612" duration="103000" />
       <workItem from="1553329671673" duration="18782000" />
       <workItem from="1553405815724" duration="4792000" />
-      <workItem from="1553415095374" duration="11712000" />
+      <workItem from="1553415095374" duration="12325000" />
     </task>
     <task id="LOCAL-00001" summary="bacground color feature">
       <created>1553332797572</created>
@@ -385,11 +366,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553350225753</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new features">
+      <created>1553427724310</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553427724310</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53576000" />
+    <option name="totallyTimeSpent" value="54189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -511,7 +499,8 @@
     <MESSAGE value="bacground color feature new" />
     <MESSAGE value="Login" />
     <MESSAGE value="login fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="login fix" />
+    <MESSAGE value="new features" />
+    <option name="LAST_COMMIT_MESSAGE" value="new features" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
