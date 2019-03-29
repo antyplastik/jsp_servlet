@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-@AllArgsConstructor
 @Getter
 @Setter
 public class User {
@@ -14,4 +13,10 @@ public class User {
     private String Password;
     private String Email;
 
+    public User(int userID, String username, String password, String email) {
+        UserID = userID;
+        Username = username;
+        Password = password;
+        Email = email;
+    }
 }
